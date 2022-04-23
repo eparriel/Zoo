@@ -7,7 +7,12 @@
 
 
 class Zoo {
-
+    static Zoo* singleton;
+    int Bank;
+    Zoo();
+public:
+    static Zoo* getZoo();
+    int getBank();
 };
 
 
